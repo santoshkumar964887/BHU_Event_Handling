@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background-image: url('../images/about.jpg'); 
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a:link {
+  color: white;
+}
+a:visited{
+  color: white;
+}
+a:active {
+  color: white;
+}
+
+
+</style>
+</head>
+<body>
+  <br>
+  <center>
+    <h1 style="font-family: Gigi; color: white; text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;"><big><big><big><big>Meet the Team</big></big></big></big></h1>
+  </center>
+<div class="row">
+
+<div class="column">
+      <div class="container">
+        <img src="../images/team/santosh.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">
+              Santosh Kumar<br>
+              Contact: <br> 9648874883<br>
+              E-mail: <br> santosh.yug@gmail.com<br>
+          </div>
+        </div>
+      </div>
+</div>
+<div class="column">
+      <div class="container">
+        <img src="../images/team/arti.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">
+              Arti Verma<br>
+              Contact: <br> 8980787865<br>
+              E-mail: <br> arti.yug@gmail.com<br>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="column">
+      <div class="container">
+        <img src="../images/team/priya.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">
+              Priya Singh<br>
+              Contact: <br> 8707074268<br>
+              E-mail: <br> priya.yug@gmail.com<br>
+          </div>
+        </div>
+      </div>
+</div>
+<div class="column">
+      <div class="container">
+        <img src="../images/team/chakra.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">
+              Priya Chakravarty<br>
+              Contact: <br>9794567448<br>
+              E-mail:<br> chakravarty.yug@gmail.com<br>
+          </div>
+        </div>
+      </div>
+</div>
+<div class="column">
+      <div class="container">
+        <img src="../images/team/salman.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">
+              Mohammad Salman<br>
+              Contact: <br> 8767675543<br>
+              E-mail: <br> salman.yug@gmail.com<br>
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+<br>
+<center>
+    <h4 style="font-family: Gigi; color: white; text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;"><big><big><big><big><a href="index.html">Click here to go back</a></big></big></big></big></h4>
+  </center>
+</body>
+</html>

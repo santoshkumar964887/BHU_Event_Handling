@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>TEST</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../css/colside.css" style="text/css" rel="stylesheet"/>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+/* Style the header */
+.header {
+  background-color: #f4e980;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+  position: relative;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+   
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+   <table>
+        <tr>
+          <td align=center width=200> 
+            <img src="..\images\logo1.jpg" height=100 width=130> 
+          </td>
+          <td align=left> 
+            <font color="#990000" size=6 FACE="Magneto"> BANARAS HINDU UNIVERSITY </font> <BR>
+            <font color="#990000" size=5 FACE="Curlz MT"> <B>E v e n t  &nbsp M a n a g e m e n t &nbsp S y s t e m </B> </font>  
+          </td>
+        </tr>
+   </table>
+</div>
+
+
+
+
+<div class="row">
+
+
+  <div class="column side">
+      <div class="container">
+        <img src="..\images\cultural.jpg"  class="image">
+        <div class="overlay" >
+          <div class="text"><h1>Cultural<br>Events</h1></div>
+        </div>
+      </div>
+  </div>
+  
+
+  <div class="column middle">
+      <img src="..\images\campus.jpg" style=" width:100%; -webkit-filter: contrast(180%);filter: contrast(180%);">
+
+      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgb(0, 0, 0, 0.5);">
+          <center>
+              <h1 style="font-family: Gigi; color: white; text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;"><big><big><big><big>Thomso'19</big></big></big></big></h1>
+              <h3 style="font-family: Chiller; color: white; text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;">
+                  From NASA Scientists to Dancing Idols<br>
+                  From Ethical Hackers to Heart-throb Singers<br>
+                  From Game Development to Gaming Wars<br>
+                  From Robotics to Dramatics<br><br>
+                  <big><big>a Techno-Cultural extravaganza</big></big>
+              </h3>
+
+          </center>
+      </div>
+  </div>
+  
+
+  <div class="column side">
+        <div class="container">
+          <img src="..\images\technical.jpg"  class="image">
+          <div class="overlay">
+            <div class="text"><h1>Technical<br>Events</h1></div>
+          </div>
+        </div>
+  </div>
+
+
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+  
+</body>
+</html>

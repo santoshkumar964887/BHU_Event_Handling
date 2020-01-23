@@ -1,0 +1,58 @@
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* pink */
+.about {
+    color: #FF3366;
+}
+
+.about:hover {
+    background: #FF3366;
+    color: white;
+}
+
+/* Blue */
+.why {
+    color: #2196F3;
+}
+
+.why:hover {
+    background: #2196F3;
+    color: white;
+}
+
+/* Orange */
+.sponsor {
+    color: orange;
+}
+
+.sponsor:hover {
+    background: #ff9800;
+    color: white;
+}
+
+/* Red */
+.celeb {
+    color: #f44336;
+}
+
+.celeb:hover {
+    background: #f44336;
+    color: white;
+}
+
+/* Green */
+.login {
+    color: #4CAF50;
+}
+
+.login:hover {
+    background-color: #4CAF50;
+    color: white;
+}
