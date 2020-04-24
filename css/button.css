@@ -39,7 +39,7 @@
 
 /* Red */
 .celeb {
-    color: #f44336;
+   
 }
 
 .celeb:hover {
@@ -49,10 +49,22 @@
 
 /* Green */
 .login {
-    color: #4CAF50;
+    color:#4CAF50
 }
 
 .login:hover {
     background-color: #4CAF50;
+    color: white;
+}
+.cl1{
+    color: #f44336;
+}
+.cl2{
+    color:#4CAF50
+}
+.cl1:hover{
+    color: white;
+}
+.cl2:hover{
     color: white;
 }
